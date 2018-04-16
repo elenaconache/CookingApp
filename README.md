@@ -10,30 +10,39 @@
 <img src="https://i.imgur.com/rDADa9I.png" height="400" width="240">
   
   
-Account screen
+Account screen, User profile screen
+
+
 <img src="https://i.imgur.com/jcCj6Yy.png" height="400" width="240">
-Main screen navigation drawer
-<img src="https://i.imgur.com/jQgPwVa.png" height="400" width="240">
-
-
-Main screen 
-
-categories tab
-<img src="https://i.imgur.com/Yirdnit.png" height="400" width="240">
-search by recipe name
-<img src="https://i.imgur.com/xDeC4ne.png" height="400" width="240">
-
-User profile screen
 <img src="https://i.imgur.com/LFDfkMk.png" height="400" width="240">
-Main screen navigation drawer, adding a recipe:
-<img src="https://i.imgur.com/zvK1MW1.png" height="400" width="240">
+
+
+Main screen categories tab, search by recipe name, search by ingredient
+
+
+<img src="https://i.imgur.com/Yirdnit.png" height="400" width="240">
+<img src="https://i.imgur.com/xDeC4ne.png" height="400" width="240">
+<img src="https://i.imgur.com/n62sg0H.png" height="400" width="240">
+
+
 Most used ingredients screen
+
+
 <img src="https://i.imgur.com/L8zwke1.png" height="400" width="240">
+
+
 Settings screen
+
+
 <img src="https://i.imgur.com/A3jtl8e.png" height="400" width="240">
 <img src="https://i.imgur.com/qXrS4s2.png" height="400" width="240">
 <img src="https://i.imgur.com/pDLEf66.png" height="400" width="240">
-Main screen navigation drawer, picture details
+
+
+Main screen navigation drawer, zoomed profile picture, adding a recipe:
+
+
+<img src="https://i.imgur.com/jQgPwVa.png" height="400" width="240">
 <img src="https://i.imgur.com/pwmGlWN.png" height="400" width="240">
-Main screen, search by ingredient
-<img src="https://i.imgur.com/n62sg0H.png" height="400" width="240">
+<img src="https://i.imgur.com/zvK1MW1.png" height="400" width="240">
+
