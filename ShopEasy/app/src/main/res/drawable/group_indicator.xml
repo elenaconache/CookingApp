@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:drawable="@drawable/indicator_collapsed"
+            android:state_empty="true" />
+        <item android:drawable="@drawable/indicator_expanded"
+            android:state_expanded="true" />
+</selector>

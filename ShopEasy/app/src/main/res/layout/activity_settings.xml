@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.elena.shopeasy.ui.SettingsActivity">
+    <Switch
+        android:id="@+id/switch_confirmation_dialogues"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20sp"
+        android:text="@string/pref_confirmation_dialogues"
+        android:gravity="center_vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:onClick="onNotificationTextClick"
+        android:id="@+id/container_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_notifications"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="@string/pref_notifications"
+            android:textColor="@android:color/black"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_notifications_summary"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            tools:text="@string/pref_notifications"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:onClick="onIngredientsTopCountClick"
+        android:id="@+id/container_ingredients_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_ingredients_top"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="@string/pref_ingredients"
+            android:textColor="@android:color/black"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_ingredients_top_summary"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:text="9"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:drawableEnd="@drawable/ic_color_lens_black_48dp"
+        android:drawableRight="@drawable/ic_color_lens_black_48dp"
+        android:id="@+id/text_font_color"
+        android:onClick="onFontColorClick"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="@string/pref_texts_color"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:drawableEnd="@drawable/ic_color_lens_black_48dp"
+        android:drawableRight="@drawable/ic_color_lens_black_48dp"
+        android:id="@+id/text_background_color"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="@string/pref_backgrounds_color"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:onClick="onBackgroundColorClick"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:onClick="onSearchOptionClick"
+        android:id="@+id/container_search_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_search_option"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="@string/pref_search"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_search_summary"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:text="By name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elena.shopeasy.fragments.CategoriesFragment">
+    <com.example.elena.shopeasy.customViews.AnimatedExpandableListView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/expand_list_categories"
+        android:groupIndicator="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/text_empty_view_categories"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/text_empty_view_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_titles_array">
+        <item>New recipe idea</item>
+        <item>My ideas</item>
+        <item>Most used ingredients</item>
+        <item>Settings</item>
+    </string-array>
+</resources>

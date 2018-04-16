@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ShopEasy</string>
+    <string name="hint_search">Search for product…</string>
+
+    <string name="home_info">Home</string>
+    <string name="categories_info">Categories</string>
+    <string name="ad_title_home">Find out the sweets that best suit you</string>
+    <string name="sale_1">Personalize</string>
+    <string name="brands">Brands</string>
+    <string name="add_idea_title">Add recipe idea</string>
+    <string name="title_not_auth">Not authenticated</string>
+    <string name="personalize">Personalize</string>
+    <string name="account_info_title">Account info</string>
+    <string name="account_rights_title">User\'s rights</string>
+    <string name="account_loginlogout_title">Login/ Logout</string>
+    <string name="find_ingredients">Find the best ingredients</string>
+
+    <string name="facebook_app_id">1769954299727517</string>
+    <string name="fb_login_protocol_scheme">fb1769954299727517</string>
+    <string name="text_sign_in">You can sign in using your Facebook account.</string>
+    <string name="action_login">Login</string>
+
+    <!--youtube api-->
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="ingredients_label">Ingredients</string>
+    <string name="label_servings">Servings</string>
+    <string name="text_empty_view_categories">There are no categories to display. Either you have no Internet connection or the server is down.</string>
+    <string name="title_add_recipe">Add Recipe</string>
+    <string name="title_recipe_name">Recipe Name</string>
+    <string name="title_ingredients_list">Ingredients</string>
+    <string name="action_ok">Ok</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="ingredients_list">Ingredients list</string>
+    <string name="text_auth">Authenticate to be able to store your own recipes.</string>
+    <string name="title_cancel">CANCEL</string>
+    <string name="title_add">ADD</string>
+    <string name="title_next">NEXT</string>
+    <string name="title_done">DONE</string>
+    <string name="text_ingredients">Ingredients:</string>
+    <string name="text_top_ingredients">Top 10 ingredients</string>
+    <string name="empty_view_added_recipes">You didn\'t add any recipe yet. Go on and type in your ideas!</string>
+    <string name="action_remove">REMOVE</string>
+    <string name="text_add_recipes_message">You should add some recipes first.</string>
+    <string name="hint_recipe_name">Apple Pie</string>
+    <string name="title_recips">Recipes</string>
+    <string name="title_mail">Email</string>
+    <string name="title_gender">Gender</string>
+    <string name="title_user_rights">User Rights</string>
+    <string name="text_download_pdf">Download PDF with user rights: </string>
+    <string name="text_user_rights_resume">This is currently just a demo Android Application and should not be treated as a final product.\nThe user is allowed to explore and add recipes with custom ingredients.\nNote that there may appear a new version of the app.\nThe images are used just for a colorful experience, not intending to disrespect copyrights. It does not intend to make money out of it. It's just a demonstrative application which highlights some architectural and design principles.</string>
+    <string name="title_edit_servings">Edit Servings</string>
+    <string name="title_servings">Servings</string>
+    <string name="pref_confirmation_popups">Show confirmation dialogues</string>
+    <string name="pref_confirmation_popups_summary">Display them when trying to delete data</string>
+    <string name="pref_confirmation_dialogues">Confirmation dialogues</string>
+    <string name="pref_notifications">Notifications</string>
+    <string name="pref_ingredients">Ingredients top count</string>
+    <string name="pref_texts_color">Font color</string>
+    <string name="pref_backgrounds_color">Background color</string>
+    <string name="title_setings">Settings</string>
+    <string name="title_auth">Authentication Required</string>
+    <string name="pref_search">Search option</string>
+    <string name="title_remove_recipe">Remove Recipe</string>
+    <string name="text_remove_recipe">Are you sure you wish to remove this recipe?</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="pref_notify_daily">Daily</string>
+    <string name="pref_notify_weekly">Weekly</string>
+    <string name="pref_notify_never">Disabled</string>
+    <string name="title_ingredients_top_count">Ingredients Top Count</string>
+    <string name="title_ingredients_top">Maximum ingredients top count</string>
+    <string name="title_search_option">Search Options</string>
+    <string name="pref_search_name">By recipe name</string>
+    <string name="pref_search_ingredients">By ingredient</string>
+    <string name="pref_search_both">By both recipe name and ingredients</string>
+
+    <string name="ad_id_interstitial">ca-app-pub-1563955609534171/2932183976</string>
+    <string name="ad_id_banner">ca-app-pub-1563955609534171/6386969988</string>
+    <string name="title_pick_color">Choose Color</string>
+
+
+</resources>

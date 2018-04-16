@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:id="@+id/text_edit_ingredients_top_count"
+        android:text="@string/title_ingredients_top_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">-->
+        <TextView
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintRight_toLeftOf="@+id/edit_top"
+            app:layout_constraintEnd_toStartOf="@+id/edit_top"
+            android:layout_width="match_parent"
+            android:text="Select the number of most used ingredients to display in the top"
+            android:layout_height="wrap_content" />
+        <!--
+        <EditText
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:hint="9"
+            android:inputType="number"
+            android:textColorHint="@android:color/darker_gray"
+            android:id="@+id/edit_top"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:ems="2"
+            android:maxLength="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />-->
+        <biz.kasual.materialnumberpicker.MaterialNumberPicker
+            android:id="@+id/numberpicker"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:npMinValue="2"
+            app:npDefaultValue="5"
+            app:npMaxValue="9"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/gradient_rec"
+            app:npBackgroundColor="@color/colorAccent"
+            app:npSeparatorColor="@android:color/white"
+            app:npTextColor="@android:color/black"
+            app:npTextSize="25sp"/>
+
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:gravity="end"
+        android:weightSum="4"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:id="@+id/text_cancel"
+            android:textColor="@color/colorAccent"
+            android:text="@string/title_cancel"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:id="@+id/text_next"
+            android:textColor="@color/colorAccent"
+            android:text="@string/title_done"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+ca-app-pub-1563955609534171~2210715977
+app id for admob
+
+Create an ad unit to display ads in your app.
+If your app is published to Google Play or the App Store, remember to come back to link your app.

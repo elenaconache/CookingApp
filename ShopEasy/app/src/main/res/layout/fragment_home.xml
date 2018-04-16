@@ -1,0 +1,41 @@
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.elena.shopeasy.fragments.CategoriesFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cupcakes_background"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="180dp"
+            android:text="@string/ad_title_home"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <GridView
+            android:numColumns="2"
+            android:id="@+id/grid_images_home"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_welcome" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
+

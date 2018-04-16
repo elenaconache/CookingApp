@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:text="@string/title_add_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="@string/title_recipe_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="@string/hint_recipe_name"
+        android:inputType="textAutoComplete|text"
+        android:textColorHint="@android:color/darker_gray"
+        android:id="@+id/edit_recipe_name"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="@string/title_ingredients_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/title_ingredients_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image_add_ingredient"
+            android:src="@drawable/ic_add_circle_black_24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <LinearLayout
+            android:id="@+id/container_ingredients"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+    <LinearLayout
+        android:gravity="end"
+        android:weightSum="4"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:id="@+id/text_cancel"
+            android:textColor="@color/colorAccent"
+            android:text="@string/title_cancel"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:id="@+id/text_next"
+            android:textColor="@color/colorAccent"
+            android:text="@string/title_done"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

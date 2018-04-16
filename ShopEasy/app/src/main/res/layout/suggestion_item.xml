@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative_suggestion_item"
+    android:background="@drawable/background_suggestion"
+    android:padding="10dp">
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipe : " />
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@+id/nameLabel"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nameLabel" />
+
+
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name" />
+
+</RelativeLayout>

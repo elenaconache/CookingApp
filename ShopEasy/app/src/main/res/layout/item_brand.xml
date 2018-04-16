@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/brand_image"
+        tools:src="@drawable/barni_brand"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+</FrameLayout>
