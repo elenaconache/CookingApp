@@ -1,6 +1,6 @@
 # CookingApp
 User's recipes screen
-![test](https://i.imgur.com/93WQScn.png)
+![test](https://i.imgur.com/93WQScn.png){:height="200px" width="400px"}
 Account screen
 ![text](https://i.imgur.com/jcCj6Yy.png width="200" height="400")
 Main screen navigation drawer
