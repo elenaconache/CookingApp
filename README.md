@@ -1,6 +1,6 @@
 # CookingApp
 User's recipes screen
-<img src="https://i.imgur.com/93WQScn.png" height="400" width="200">
+<img src="https://i.imgur.com/93WQScn.png" height="400" width="250">
 ![test](https://i.imgur.com/93WQScn.png)
 Account screen
 ![text](https://i.imgur.com/jcCj6Yy.png width="200" height="400")
