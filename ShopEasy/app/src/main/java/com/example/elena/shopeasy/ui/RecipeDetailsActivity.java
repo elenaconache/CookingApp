@@ -98,7 +98,7 @@ import io.realm.Realm;
 import static android.support.v4.graphics.TypefaceCompatUtil.getTempFile;
 
 public class RecipeDetailsActivity extends YouTubeBaseActivity implements
-        YouTubePlayer.OnInitializedListener, FooterFragment.FragmentFooterListener{
+        YouTubePlayer.OnInitializedListener{
 
     private static final int RECOVERY_REQUEST = 1;
     private static final String PATH_IMAGES = "shopeasyimages/";
@@ -823,7 +823,7 @@ public class RecipeDetailsActivity extends YouTubeBaseActivity implements
         //removing
         dR.removeValue();
     }
-
+/*
     @Override
     public void onHome() {//for footer fragment
         Handler handler = new Handler();
@@ -880,5 +880,5 @@ public class RecipeDetailsActivity extends YouTubeBaseActivity implements
     private void pulseView(View view){
         Animation pulse = AnimationUtils.loadAnimation(this,R.anim.pulse);
         view.startAnimation(pulse);
-    }
+    }*/
 }
