@@ -41,7 +41,6 @@ Settings screen
 
 Main screen navigation drawer, zoomed profile picture, adding a recipe:
 
-
 <img src="https://i.imgur.com/jQgPwVa.png" height="400" width="240">
 <img src="https://i.imgur.com/pwmGlWN.png" height="400" width="240">
 <img src="https://i.imgur.com/zvK1MW1.png" height="400" width="240">
